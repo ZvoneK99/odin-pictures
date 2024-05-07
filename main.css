@@ -1,11 +1,16 @@
+body{
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
 header{
-    background-color: #1F2937;
+    background-color: #071830;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
     height: auto;
-    margin-bottom: 0;
+    margin: 0px;
+    
 }
 #logo{
     padding: 3px;
@@ -15,7 +20,7 @@ header{
     border-radius: 50%;
 }
 #linkovi {
-    width: 35%;
+    width: 20%;
 }
 .link {
     color: white;
@@ -23,7 +28,11 @@ header{
 }
 #naslov {
     background-color: #1F2937;
-  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 20px;
 }
 h1 {
     display: flex;
@@ -33,5 +42,56 @@ h1 {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     height: 100px;
+}
+#dobrodoslica {
+    color: white;
+    margin-top: -20px;
+    text-align: center;
+}
+#divstadion{
+    background-color: #1F2937;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+#divstadion > div:first-child {
+    order: 2;
+}
 
+#divstadion > div:last-child {
+    order: 1;
+}
+#stadion {
+    width: 650px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 3%;
+}
+#ispodslike {
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+   text-align: center;
+    color: white;
+}
+h3 {
+    text-align: center;
+    color: white;
+}
+p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.quote {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+hr {
+    width: auto;
+    border-top: 1px solid white;
+    margin-left: 10px;
 }
