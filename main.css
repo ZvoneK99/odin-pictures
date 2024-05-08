@@ -25,6 +25,10 @@ header{
 .link {
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+a.link:hover {
+    color: #cf9a36;
 }
 #naslov {
     background-color: #1F2937;
@@ -39,7 +43,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-top: 0;
-    color: white;
+    color: #F9FAF8;
     font-family: 'Courier New', Courier, monospace;
     height: 100px;
 }
@@ -94,4 +98,163 @@ hr {
     width: auto;
     border-top: 1px solid white;
     margin-left: 10px;
+}
+#dvica {
+    background-color: white;
+    height: auto;
+    width: auto;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+#h2igrači {
+    color: #1F2937;
+    font-size: 36px;   
+    font-family: 'Courier New', Courier, monospace;
+}
+#dvica > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px 250px 50px 250px;
+
+}
+#dvica > div > div {
+    border: 2px solid #1c067e;
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+}
+#modric, #mandzo, #kova, #petko{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bolder;
+    color: #1F2937;
+}
+#trica {
+ 
+    background-color: #E5E7EB;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#naslovi {
+    margin-top: 0px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #071830;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*uređivao ovo gdje su trofeji*/
+#velikiTrofeji {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 350px 50px 350px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*"kutije" gdje piše broj trofeja*/
+#liga, #kup, #superkup, #velGr {
+    background-color: #2F3B47;
+    width: 220px;
+    height: 80px;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+/*slika trofeja i broj titula*/
+#velikiTrofeji > div > #lijevi {
+    background-color: #142E48;
+    width: 70px;
+    height: 80px;
+    border-right: 3px solid #BD9A57;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/*tekst u trofejima*/
+#velikiTrofeji > div > div {
+    background-color: #142E48;
+    width: 150px;
+    height: 80px;
+    color: white;
+    font-size: large;
+}
+/*slika trofeja*/
+#trofej {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+/*ovo gdje pišu naslovi prvaka(liga, kup itd)*/
+#desni {
+    width: 100px;
+    height: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*section 4 dio*/
+#cetvorka {
+    margin-top: -20px;
+    background-color: #071830;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#cetvorka > h2 {
+    width: 50%;
+    height: auto;
+
+}
+#email {
+    background-color: #142E48;
+    width: 200px;
+    height: 20px;
+    font-size: larger;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+::placeholder {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+button {
+    background-color: #cf9a36;
+    width: 100px;
+    height: 30px;
+    color: #ECDECA;
+    font-size: larger;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer {
+    background-color: #071830;
+    height: auto;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    margin-top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+
 }
